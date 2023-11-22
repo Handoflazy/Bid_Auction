@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "name": "Minh Thien Slave",
+      "price": "20000",
+      "owner": "Cao Nguyen"
+    },
+    {
+      "name": "Hong Vu slave",
+      "price": "1",
+      "owner": "Cao Nguyen"
+    },
+    {
+      "name": "HongVu",
+      "price": "1",
+      "owner": "Cao Nguyen",
+      "last_bidder": "Cao Nguyen"
+    },
+    {
+      "name": "13",
+      "price": "5000000",
+      "owner": "nguyen",
+      "last_bidder": "hongvu"
+    },
+    {
+      "name": "14",
+      "price": "100000000",
+      "owner": "hongvu",
+      "last_bidder": "nguyen"
+    },
+    {
+      "name": "pen111",
+      "price": "01111111",
+      "owner": "MinhThien"
+    }
+  ]
+}
