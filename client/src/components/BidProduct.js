@@ -25,7 +25,7 @@ const BidProduct = ({socket}) => {
         <form className="bidProduct__form" onSubmit={handleSubmit}>
 
           <h3 className='bidProduct__name'>{name}</h3>
-
+          <h3>Current Value:{price}</h3>
           <label htmlFor='amount'>Bidding Amount</label>
           {error && <p style={{color: "red"}}>The bidding amount must be greater than {price}</p>}
           <input type="number" name='amount' value={amount} onChange={e => setAmount(e.target.value)} required/>

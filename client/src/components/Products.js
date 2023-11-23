@@ -28,6 +28,7 @@ const Products = () => {
             <th>Last Bidder</th>
             <th>Creator</th>
             <th>Edit</th>
+            <th>Delete</th>
           </tr>
         </thead>
         <tbody>
@@ -38,6 +39,11 @@ const Products = () => {
               <td>{product.last_bidder || "None"}</td>
               <td>{product.owner}</td>
               <td><EditButton product={product}/></td>
+              <td>
+                    <button onClick={() => deleteProduct(product.id)}>
+                      Delete
+                    </button>
+                  </td> 
             </tr>
           ))}
             
